@@ -10,9 +10,9 @@
         <fieldset>
             <legend>Formulário de contacto BYTES</legend>
             <label for="name">Nome:</label>
-            <input type="text" id="name" name="userName" placeholder="Insira aqui o seu nome"><br>
+            <input type="text" id="name" name="userName" placeholder="Insira aqui o seu nome" required><br>
             <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="userMail"><br><br>
+            <input type="email" id="mail" name="userMail" required><br><br>
             <legend>Género:</legend>
             <input type="radio" id="masculino" name="genero">
             <label for="masculino">Masculino</label><br>
@@ -21,10 +21,10 @@
             <label for="datahoje">Data Atual:</label>
             <input type="date" id="datahoje" name="tDate"><br>
             <label for="turma">Turma</label>
-            <select id="turma" name="turmaOptions" >
-                <option value="">Selecione uma turma</option>
-                <option value="FullStack Developer">Fullstack Developer</option>
-                <option value="Outra">Outra</option>
+            <select id="turma" name="turmaOptions" required >
+                <option value="" disabled selected>Selecione uma turma</option>
+                <option value="fullStack Developer">Fullstack Developer</option>
+                <option value="outra">Outra</option>
             </select>
             <br><br>
             <label for="message">Mensagem:</label>

@@ -1,0 +1,47 @@
+h1 {
+    font-size: 50px;
+    color: azure;
+    background-color: coral;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.heading {
+    font-size: 30px;
+    color: cornflowerblue;
+    background-color: coral;
+}
+
+.main-content {
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.field1 {
+    background-color: bisque;
+    border-color:aquamarine;
+    border-style:double;
+}
+
+.leg1 {
+    color: brown;
+    background-color: cornflowerblue;
+}
+
+ul > li {
+    border-top: 5px red;
+}
+
+h1 ~ p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}

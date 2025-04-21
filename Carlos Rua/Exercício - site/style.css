@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 22%, 67%);
+    font-family: Karla;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "community"
+    "subs"
+    "fill";
+    margin: 2rem;
+    border-radius: 4px;
+}
+
+.join {
+    color: hsl(179, 62%, 43%);
+}
+
+.day-30 {
+    color: hsl(71, 73%, 54%);
+}
+
+.community {
+    background-color: hsl(204, 43%, 93%);
+    grid-area: community;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.grey-p {
+    color: hsl(218, 22%, 67%);
+}
+
+.subs {
+    background-color: hsl(179, 62%, 43%);
+    grid-area: subs;
+}
+
+.fill {
+    background-color: hsl(179, 44%, 49%);
+    grid-area: fill;
+    
+}
+
+button {
+    width: 75%;
+    border-radius: 4px;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    border: none;
+    padding: 1rem;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+ul {
+    list-style-type: none;
+    color: hsl(204, 43%, 93%);
+}
+
+h2, h3, p {
+    padding: 1rem;
+    color: hsl(204, 43%, 93%);
+}

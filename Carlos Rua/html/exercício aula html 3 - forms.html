@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício <Form></Form></title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Formulário de contacto BYTES</legend>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="userName" placeholder="Insira aqui o seu nome" required><br>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="userMail" required><br><br>
+            <legend>Género:</legend>
+            <input type="radio" id="masculino" name="genero">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="feminino" name="genero">
+            <label for="feminino">Feminino</label><br><br>
+            <label for="datahoje">Data Atual:</label>
+            <input type="date" id="datahoje" name="tDate"><br>
+            <label for="turma">Turma</label>
+            <select id="turma" name="turmaOptions" required >
+                <option value="" disabled selected>Selecione uma turma</option>
+                <option value="fullStack Developer">Fullstack Developer</option>
+                <option value="outra">Outra</option>
+            </select>
+            <br><br>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="comment" rows="4" cols="50"></textarea><br>
+            <input type="reset" value="Reset">    
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
